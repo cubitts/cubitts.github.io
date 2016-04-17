@@ -16,7 +16,7 @@ html { box-sizing: border-box; }
 
 /* ----- per-post colors! ----- */
 {% for node in site.posts %}
-  {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
+  {% capture id %}{{ node.id | remove:'/' | downcase | prepend:' '}}{% endcapture %}
   {% capture bg %}{% if site.colors[node.bg] %}{{ site.colors[node.bg] }}{% else %}{{ node.bg }}{% endif %}{% endcapture %}
   {% capture fg %}{% if site.colors[node.color] %}{{ site.colors[node.color] }}{% else %}{{ node.color }}{% endif %}{% endcapture %}
   nav .p-{{id}} { border-color: {{ bg }}; }
@@ -30,7 +30,7 @@ html { box-sizing: border-box; }
 
 code, pre { font-family: Monaco, Menlo, Consolas, "Courier New", monospace; }
 
-/* spesifically inline code */
+/* specifically inline code */
 code {
   background: rgba(255,255,255,0.2);
   display: inline;
@@ -130,6 +130,11 @@ nav ul {
   padding:0;
   margin:0;
   letter-spacing:-4px;
+}
+
+nav h1 {
+  padding:10px 0px 0px 0px;
+  color:#fff;
 }
 
 nav ul li {

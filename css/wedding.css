@@ -1,3 +1,45 @@
+/* Manually adding colors to post blocks */
+
+/* Problem */
+
+/* nav .problem { */
+/*   border-color: #CBCBCB; */
+/* } */
+
+div[id=" problem"] {
+  background-color: #CBCBCB !important;
+  color: #444;
+}
+
+div[id=" problem"] a {
+  color: #444;
+}
+
+div[id="problem"] .sectiondivider {
+  color: #CBCBCB;
+}
+
+/* Solution */
+
+/* nav .solution { */
+/*     border-color: ; */
+/* } */
+
+/* div[id="solution"] { */
+/*     background-color: !important; */
+/*     color: ; */
+/* } */
+
+/* div[id="solution"] a { */
+/*     color: ; */
+/* } */
+
+/* div[id="solution"] .sectiondivider { */
+/*     color: ; */
+/* } */
+
+/* END of post blocks color configuration */
+
 nav ul li {
     padding: 3px 15px;
 }
