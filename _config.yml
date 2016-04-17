@@ -1,13 +1,10 @@
----
-
 port: 4000
 host: 0.0.0.0
 safe: false
 
-
 ### site serving configuration ###
 exclude: [CNAME, README.md, .gitignore]
-permalink: / ## disables post output
+permalink: / /:year
 timezone: null
 lsi: false
 markdown: kramdown
@@ -16,21 +13,25 @@ highlighter: rouge
 
 ### content configuration ###
 title:       "Cephalometrics"
-keywords:    "cephalometrics, optical"
+keywords:    "cephalometrics optical"
 description: "Cephalometrics"
-source_link: "https://github.com/t413/SinglePaged"
-favicon:     #put a path like: "img/favicon.ico"
-touch_icon:  #put a path like: "img/apple-touch-icon.png"
-google_analytics_key: ## put YOUR key here to enable tracking! (blank to disable)
+source_link: "https://github.com/cubitts/.github.io"
+favicon:     "img/favicon.ico"
+touch_icon:  "img/apple-touch-icon.png"
+# google_analytics_key: UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable)
 
 
 ### template colors, used site-wide via css ###
 colors:
-  black:     '#111111'
   white:     '#f8f8f8'
-  blue:      '#49a7e9'
-  green:     '#9bcf2f'
-  purple:    '#c869bf'
-  orange:    '#fab125'
-  turquoise: '#0fbfcf'
-  
+  blue:      '#97B4FF'
+  lavender: '#B0C7FF'
+  darkblue: '#5872B2'
+  brown: '#876333'
+
+# new colors:
+#     dusty blue: '#86C5D4'
+#     silver: '#A9B8BA'
+#     peach: "#FE8F73"
+
+
