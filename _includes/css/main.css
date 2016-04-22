@@ -55,7 +55,8 @@ pre {
 img {
   max-width:100%!important;
   height:auto;
-  vertical-align:middle;
+  /* vertical-align:middle; */
+  padding: 10px 0px 0px 35px; /* padding set to centre the CubittsXCharles image */
 }
 
 hr {
