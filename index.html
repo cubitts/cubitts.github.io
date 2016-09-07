@@ -20,11 +20,11 @@
 
     <nav><ul>
       <h1>Cephalometrics</h1>
+        <!-- <li><a href="http://cephalometricskx.tumblr.com">Blog</a></li> -->
       {% for node in site.posts reversed %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
         <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
       {% endfor %}
-        <li><a href="http://cephalometricskx.tumblr.com">Blog</a></li>
     </ul></nav>
 
 

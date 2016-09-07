@@ -19,6 +19,20 @@ div[id="problem"] .sectiondivider {
   color: #CBCBCB;
 }
 
+
+div[id=" journal"] {
+  background-color: #CBCBCB !important;
+  color: #444;
+}
+
+div[id=" journal"] a {
+  color: #444;
+}
+
+div[id="journal"] .sectiondivider {
+  color: #CBCBCB;
+}
+
 /* Solution */
 
 /* nav .solution { */
